@@ -1,0 +1,898 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--=============== basic  ===============-->
+    <meta charset="UTF-8" />
+    <title>Radium Desarrollos</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <meta name="robots" content="index, follow" />
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <!--=============== css  ===============-->
+    <link type="text/css" rel="stylesheet" href="css/reset.css" />
+    <link type="text/css" rel="stylesheet" href="css/plugins.css" />
+    <link type="text/css" rel="stylesheet" href="css/style.css" />
+    <link type="text/css" rel="stylesheet" href="css/yourstyle.css" />
+    <!--=============== favicons ===============-->
+    <link rel="shortcut icon" href="images/favicon.ico" />
+    <!--=============== icons ===============-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- 
+      CAMBIOS:
+      - responsive hero
+      - proyectos delta unificados
+      - compartir navbar eliminado
+      - contador con + delante del numero
+      - redirecciones arregladas
+
+      CAMBIAR:
+      - mapa proyecto delta
+      - descripciones y texto de proyecto (hero e individuales)
+
+      MODIFICACIONES?:
+      - paginas individuales
+    -->
+
+    <!-- loader -->
+    <div class="loader">
+      <div id="movingBallG">
+        <div class="movingBallLineG"></div>
+        <div id="movingBallG_1" class="movingBallG"></div>
+      </div>
+    </div>
+    <!-- loader end -->
+    <!--================= Main   ================-->
+    <div id="main">
+      <!--================= header ================-->
+      <header class="main-header">
+        <!-- logo -->
+        <a class="logo-holder" href="index.html"
+          ><img src="images/logo.png" alt=""
+        /></a>
+        <!-- logo end -->
+        <!-- share button-->
+        <!-- COMPARTIR REDES -->
+        <!-- <div class="show-share-wrap"> -->
+        <!-- <div class="show-share">
+            <span>Compartir</span><img src="images/share.png" alt="" />
+          </div> -->
+        <!-- </div> -->
+        <!-- share button end-->
+        <!-- search button-->
+        <!-- <div class="show-search show-fixed-search vissearch">
+          <i class="fa fa-search"></i>
+        </div> -->
+        <!-- search button end -->
+        <!-- mobile nav -->
+        <div class="nav-button-wrap">
+          <div class="nav-button vis-main-menu">
+            <span></span><span></span><span></span>
+          </div>
+        </div>
+        <!-- mobile nav end-->
+        <!--  navigation -->
+        <div class="nav-holder">
+          <nav class="scroll-init asl">
+            <ul>
+              <li>
+                <a href="#sec1" class="act-scrlink">Inicio</a>
+              </li>
+              <li>
+                <a href="#sec2">Nosotros</a>
+              </li>
+              <li>
+                <a href="#sec4">Proyectos</a>
+              </li>
+              <li>
+                <a href="#sec10">Contacto</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <!-- navigation  end -->
+      </header>
+      <!-- header  end -->
+      <!--=============== wrapper ===============-->
+      <div id="wrapper">
+        <!-- content-holder  -->
+        <div class="content-holder">
+          <!--Content -->
+          <div class="content full-height" id="sec1">
+            <div class="slider-wrap homecarousel lightgallery lg-synk">
+              <div class="swiper-container">
+                <div class="swiper-wrapper">
+                  <!-- swiper-slide-->
+                  <!-- 768 -->
+                  <div class="swiper-slide">
+                    <a
+                      href="images/proyectos/acha1877/principal.jpg"
+                      class="gallery-popup popgal"
+                      ><i class="fa fa-search"></i
+                    ></a>
+                    <img src="images/proyectos/acha1877/principal.jpg" alt="" />
+                    <div class="thumb-info">
+                      <h3>
+                        <a href="mariano-acha-1877.html"
+                          >Mariano Acha 1877 <br />
+                          <i
+                            class="fa-solid fa-location-dot"
+                            style="margin-right: 5px"
+                          ></i>
+                          Caba</a
+                        >
+                      </h3>
+                      <p>
+                        Here you can place an optional description of your
+                        Project
+                      </p>
+                      <a
+                        href="mariano-acha-1877.html"
+                        class="btn float-btn flat-btn"
+                        >Ver Proyecto</a
+                      >
+                    </div>
+                  </div>
+                  <!-- swiper-slide end-->
+                  <!-- swiper-slide-->
+                  <div class="swiper-slide">
+                    <a
+                      href="images/proyectos/donado1860/principal.jpg"
+                      class="gallery-popup popgal"
+                      ><i class="fa fa-search"></i
+                    ></a>
+                    <img
+                      src="images/proyectos/donado1860/principal.jpg"
+                      alt=""
+                    />
+                    <div class="thumb-info">
+                      <h3>
+                        <a href="donado-1860.html"
+                          >Donado 1860 <br />
+                          <i
+                            class="fa-solid fa-location-dot"
+                            style="margin-right: 5px"
+                          ></i>
+                          Caba</a
+                        >
+                      </h3>
+                      <p>
+                        Here you can place an optional description of your
+                        Project
+                      </p>
+                      <a href="donado-1860.html" class="btn float-btn flat-btn"
+                        >Ver Proyecto</a
+                      >
+                    </div>
+                  </div>
+                  <!-- swiper-slide end-->
+                  <!-- swiper-slide-->
+                  <div class="swiper-slide">
+                    <a
+                      href="images/proyectos/proyecto-delta/1.jpg"
+                      class="gallery-popup popgal"
+                      ><i class="fa fa-search"></i
+                    ></a>
+                    <img src="images/proyectos/proyecto-delta/1.jpg" alt="" />
+                    <div class="thumb-info">
+                      <h3>
+                        <a href="proyecto-delta.html"
+                          >Proyecto Delta<br />
+                          <i
+                            class="fa-solid fa-location-dot"
+                            style="margin-right: 5px"
+                          ></i>
+                          Delta de Tigre</a
+                        >
+                      </h3>
+                      <p>
+                        Here you can place an optional description of your
+                        Project
+                      </p>
+                      <a
+                        href="proyecto-delta.html"
+                        class="btn float-btn flat-btn"
+                        >Ver Proyecto</a
+                      >
+                    </div>
+                  </div>
+                  <!-- swiper-slide end-->
+                </div>
+                <div class="sw-button swiper-button-next">
+                  <i class="fa fa-angle-right"></i>
+                </div>
+                <div class="sw-button swiper-button-prev">
+                  <i class="fa fa-angle-left"></i>
+                </div>
+                <div class="swiper-scrollbar"></div>
+              </div>
+            </div>
+          </div>
+          <!-- content  end -->
+          <!--content-->
+          <div class="content">
+            <!--section end  -->
+            <section id="sec2" data-scrollax-parent="true">
+              <div class="container">
+                <div class="section-container fl-wrap">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <img
+                        src="images/nosotros.png"
+                        class="respimg"
+                        alt=""
+                        style="height: 400px; width: auto"
+                      />
+                    </div>
+                    <div class="col-md-7">
+                      <div class="content-wrap about-wrap">
+                        <h3 class="bold-title" style="color: #25485c">
+                          Somos RADIUM Desarrollos . <br />
+                          Nos dedicamos al desarrollo inmobiliario <br />
+                          En CABA y GBA
+                        </h3>
+                        <p style="color: #25485c">
+                          Nos especializamos en desarrollos inmobiliarios
+                          destinados a la vivienda en CABA y GBA, alcanzando 7
+                          proyectos finalizados y 3 en proceso. En RADIUM
+                          desarrollamos las actividades enfocándonos de forma
+                          permanente en nuestro compromiso con la calidad, sin
+                          dejar al lado la innovación.
+                        </p>
+                        <p style="color: #25485c">
+                          Nuestro propósito es brindar proyectos de calidad a
+                          nuestros clientes, siendo eficientes en el proceso
+                          optimizando al máximo los procesos e innovando en cada
+                          etapa.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <!--  section -->
+            <section class="sml-pad-sec">
+              <div class="container">
+                <div class="facts-wrap fl-wrap">
+                  <div class="inline-facts-holder fl-wrap">
+                    <!-- inline-facts -->
+                    <div class="inline-facts">
+                      <div class="milestone-counter">
+                        <div class="stats animaper">
+                          <div class="num" data-content="7" data-num="7">7</div>
+                        </div>
+                      </div>
+                      <h6>Proyectos Finalizados</h6>
+                    </div>
+                    <!-- inline-facts end -->
+                    <!-- inline-facts  -->
+                    <div class="inline-facts">
+                      <div class="milestone-counter">
+                        <div class="stats animaper">
+                          <div class="num" data-content="3" data-num="3">3</div>
+                        </div>
+                      </div>
+                      <h6>Proyectos en Desarrollo</h6>
+                    </div>
+                    <!-- inline-facts end -->
+                    <!-- inline-facts  -->
+                    <div class="inline-facts">
+                      <div class="milestone-counter">
+                        <div class="stats animaper">
+                          <div class="num" data-content="1" data-num="1">1</div>
+                        </div>
+                      </div>
+                      <h6>Proyecto a Futuro</h6>
+                    </div>
+                    <!-- inline-facts end -->
+                    <!-- inline-facts  -->
+                    <div class="inline-facts">
+                      <div
+                        class="milestone-counter"
+                        style="
+                          display: flex;
+                          align-items: center;
+                          justify-content: center;
+                        "
+                      >
+                        <span
+                          style="
+                            font-size: 56px;
+                            color: white;
+                            font-weight: 900;
+                            margin-right: 3px;
+                            padding-top: 5px;
+                          "
+                          >+</span
+                        >
+                        <div
+                          class="animaper"
+                          style="float: left; position: relative"
+                        >
+                          <div class="num" data-content="60" data-num="60">
+                            +5000
+                          </div>
+                        </div>
+                      </div>
+                      <h6>Departamentos entregados</h6>
+                    </div>
+                    <!-- inline-facts end -->
+                  </div>
+                </div>
+              </div>
+            </section>
+            <!--  section end -->
+            <!--  section -->
+            <!--  section end -->
+            <!--section -->
+            <!--  section end -->
+            <!--section  -->
+            <section
+              class="parallax-section header-section"
+              data-scrollax-parent="true"
+              id="sec4"
+            >
+              <div
+                class="bg"
+                data-scrollax="properties: { translateY: '200px' }"
+                data-bg="images/proyectos/acha1877/principal.jpg"
+              ></div>
+              <div class="overlay"></div>
+              <div class="container big-container">
+                <div class="section-title">
+                  <h2>
+                    <!-- Our Featured <br />
+                    Works -->
+                    Nuestros <br />
+                    Proyectos
+                  </h2>
+                  <p>Conocé el detalle de nuestros proyectos</p>
+                  <a href="#secw" class="custom-scroll-link sect-scroll-link"
+                    ><i class="fa fa-long-arrow-down"></i>
+                    <span>VER PROYECTOS</span></a
+                  >
+                </div>
+              </div>
+            </section>
+            <!--section  end -->
+            <section id="secw">
+              <div class="container">
+                <!-- filter -->
+                <div class="filter-holder inline-filter bold-filter fl-wrap">
+                  <div class="filter-button"><span>Filtros:</span></div>
+                  <div class="gallery-filters">
+                    <a
+                      href="#"
+                      class="gallery-filter gallery-filter-active"
+                      data-filter="*"
+                      >Todos los Proyectos</a
+                    >
+                    <a
+                      href="#"
+                      class="gallery-filter"
+                      data-filter=".finalizados"
+                      >Finalizados</a
+                    >
+                    <a
+                      href="#"
+                      class="gallery-filter"
+                      data-filter=".enconstruccion"
+                      >En Construcción</a
+                    >
+                    <a
+                      href="#"
+                      class="gallery-filter"
+                      data-filter=".proximosacomenzar"
+                      >Próximos a Comenzar</a
+                    >
+                  </div>
+                  <div class="count-folio">
+                    <div class="num-album"></div>
+                    <div class="all-album"></div>
+                  </div>
+                </div>
+                <!-- filter end-->
+              </div>
+              <!-- gallery-items   -->
+              <div class="gallery-items grid-no-pad vis-por-info">
+                <!-- 1 -->
+                <div class="gallery-item proximosacomenzar">
+                  <div class="grid-item-holder">
+                    <div class="box-item">
+                      <a href="mariano-acha-1877.html">
+                        <img
+                          src="images/proyectos/acha1877/principal.webp"
+                          alt=""
+                        />
+                        <div class="overlay"></div>
+                      </a>
+                      <a
+                        href="images/proyectos/acha1877/principal.jpg"
+                        class="image-popup popup-image"
+                        ><i class="fa fa-search"></i
+                      ></a>
+                    </div>
+                    <div class="grid-item">
+                      <h3>
+                        <a href="mariano-acha-1877.html">Mariano Acha 1877</a>
+                      </h3>
+                      <span>Edificio</span>
+                      <span
+                        ><i class="fa-solid fa-location-dot"></i> Villa
+                        Urquiza</span
+                      >
+                    </div>
+                  </div>
+                </div>
+                <!-- 1 end -->
+                <!-- 2 -->
+                <div class="gallery-item enconstruccion">
+                  <div class="grid-item-holder">
+                    <div class="box-item">
+                      <a href="donado-1860.html">
+                        <img
+                          src="images/proyectos/donado1860/principal.webp"
+                          alt=""
+                        />
+                        <div class="overlay"></div>
+                      </a>
+                      <a
+                        href="images/proyectos/donado1860/principal.jpg"
+                        class="image-popup popup-image"
+                        ><i class="fa fa-search"></i
+                      ></a>
+                    </div>
+                    <div class="grid-item">
+                      <h3><a href="donado-1860.html">Donado 1860</a></h3>
+                      <span>Edificio</span>
+                      <span
+                        ><i class="fa-solid fa-location-dot"></i> Villa
+                        Urquiza</span
+                      >
+                    </div>
+                  </div>
+                </div>
+                <!-- 2 end -->
+                <!-- 4 -->
+                <div class="gallery-item enconstruccion">
+                  <div class="grid-item-holder">
+                    <div class="box-item">
+                      <a href="proyecto-delta.html">
+                        <img
+                          src="images/proyectos/proyecto-delta/1.webp"
+                          alt=""
+                        />
+                        <div class="overlay"></div>
+                      </a>
+                      <a
+                        href="images/proyectos/proyecto-delta/1.jpg"
+                        class="image-popup popup-image"
+                        ><i class="fa fa-search"></i
+                      ></a>
+                    </div>
+                    <div class="grid-item">
+                      <h3><a href="proyecto-delta.html">Proyecto Delta</a></h3>
+                      <span>Casa</span>
+                      <span
+                        ><i class="fa-solid fa-location-dot"></i> Delta de
+                        tigre</span
+                      >
+                    </div>
+                  </div>
+                </div>
+                <!-- <div class="gallery-item enconstruccion">
+                  <div class="grid-item-holder">
+                    <div class="box-item">
+                      <a href="delta-1y.html">
+                        <img src="images/proyectos/delta1y/1.jpg" alt="" />
+                        <div class="overlay"></div>
+                      </a>
+                      <a
+                        href="images/proyectos/delta1y/1.jpg"
+                        class="image-popup popup-image"
+                        ><i class="fa fa-search"></i
+                      ></a>
+                    </div>
+                    <div class="grid-item">
+                      <h3><a href="delta-1y.html">Delta 1Y</a></h3>
+                      <span>Casa</span>
+                      <span
+                        ><i class="fa-solid fa-location-dot"></i> Delta de
+                        tigre</span
+                      >
+                    </div>
+                  </div>
+                </div> -->
+                <!-- 4 end -->
+                <!-- 5 -->
+                <!-- <div class="gallery-item enconstruccion">
+                  <div class="grid-item-holder">
+                    <div class="box-item">
+                      <a href="delta-1z.html">
+                        <img src="images/proyectos/delta1z/1.jpg" alt="" />
+                        <div class="overlay"></div>
+                      </a>
+                      <a
+                        href="images/proyectos/delta1z/1.jpg"
+                        class="image-popup popup-image"
+                        ><i class="fa fa-search"></i
+                      ></a>
+                    </div>
+                    <div class="grid-item">
+                      <h3><a href="delta-1z.html">Delta 1Z</a></h3>
+                      <span>Casa</span>
+                      <span
+                        ><i class="fa-solid fa-location-dot"></i> Delta de
+                        tigre</span
+                      >
+                    </div>
+                  </div>
+                </div> -->
+                <!-- 5 end -->
+                <!-- 7 -->
+                <div class="gallery-item finalizados">
+                  <div class="grid-item-holder">
+                    <div class="box-item">
+                      <a href="godoy-cruz-1757.html">
+                        <img
+                          src="images/proyectos/godoycruz1757/principal.jpg"
+                          alt=""
+                        />
+                        <div class="overlay"></div>
+                      </a>
+                      <a
+                        href="images/proyectos/godoycruz1757/principal.jpg"
+                        class="image-popup popup-image"
+                        ><i class="fa fa-search"></i
+                      ></a>
+                    </div>
+                    <div class="grid-item">
+                      <h3>
+                        <a href="godoy-cruz-1757.html">Godoy Cruz 1757</a>
+                      </h3>
+                      <span>Interior / interiorismo</span>
+                    </div>
+                  </div>
+                </div>
+                <!-- 7 end -->
+                <!-- 8 -->
+                <div class="gallery-item finalizados">
+                  <div class="grid-item-holder">
+                    <div class="box-item">
+                      <a href="donado-2337.html">
+                        <img
+                          src="images/proyectos/donado2337/principal.jpg"
+                          alt=""
+                        />
+                        <div class="overlay"></div>
+                      </a>
+                      <a
+                        href="images/proyectos/donado2337/principal.jpg"
+                        class="image-popup popup-image"
+                        ><i class="fa fa-search"></i
+                      ></a>
+                    </div>
+                    <div class="grid-item">
+                      <h3><a href="donado-2337.html">Donado 2337</a></h3>
+                      <span>casas / Interior</span>
+                    </div>
+                  </div>
+                </div>
+                <!-- 8 end -->
+                <!-- 9 -->
+                <div class="gallery-item finalizados">
+                  <div class="grid-item-holder">
+                    <div class="box-item">
+                      <a href="crisologo-larralde-2957.html">
+                        <img
+                          src="images/proyectos/crisologolarralde2957/principal.webp"
+                          alt=""
+                        />
+                        <div class="overlay"></div>
+                      </a>
+                      <a
+                        href="images/proyectos/crisologolarralde2957/principal.jpg"
+                        class="image-popup popup-image"
+                        ><i class="fa fa-search"></i
+                      ></a>
+                    </div>
+                    <div class="grid-item">
+                      <h3>
+                        <a href="crisologo-larralde-2957.html"
+                          >Crisologo Larralde 2957</a
+                        >
+                      </h3>
+                      <span>Hoses / interiorismo</span>
+                    </div>
+                  </div>
+                </div>
+                <!-- 9 end -->
+                <!-- 10 -->
+                <div class="gallery-item finalizados">
+                  <div class="grid-item-holder">
+                    <div class="box-item">
+                      <a href="la-pampa-4449.html">
+                        <img
+                          src="images/proyectos/lapampa4449/principal.jpg"
+                          alt=""
+                        />
+                        <div class="overlay"></div>
+                      </a>
+                      <a
+                        href="images/proyectos/lapampa4449/principal.jpg"
+                        class="image-popup popup-image"
+                        ><i class="fa fa-search"></i
+                      ></a>
+                    </div>
+                    <div class="grid-item">
+                      <h3><a href="la-pampa-4449.html">La Pampa 4449</a></h3>
+                      <span>interiorismo / Interior</span>
+                    </div>
+                  </div>
+                </div>
+                <!-- 10 end -->
+                <!-- 11 -->
+                <!-- <div class="gallery-item finalizados">
+                  <div class="grid-item-holder">
+                    <div class="box-item">
+                      <a href="elias-bedoya-160.html">
+                        <img src="images/proyectos/1.jpg" alt="" />
+                        <div class="overlay"></div>
+                      </a>
+                      <a
+                        href="images/proyectos/1.jpg"
+                        class="image-popup popup-image"
+                        ><i class="fa fa-search"></i
+                      ></a>
+                    </div>
+                    <div class="grid-item">
+                      <h3>
+                        <a href="elias-bedoya-160.html">Elias Bedoya 160</a>
+                      </h3>
+                      <span>casas / Interior</span>
+                    </div>
+                  </div>
+                </div> -->
+                <!-- 11 end -->
+                <!-- 12 -->
+                <!-- <div class="gallery-item finalizados">
+                  <div class="grid-item-holder">
+                    <div class="box-item">
+                      <a href="casa-nuevo-quilmes.html">
+                        <img src="images/proyectos/1.jpg" alt="" />
+                        <div class="overlay"></div>
+                      </a>
+                      <a
+                        href="images/proyectos/1.jpg"
+                        class="image-popup popup-image"
+                        ><i class="fa fa-search"></i
+                      ></a>
+                    </div>
+                    <div class="grid-item">
+                      <h3>
+                        <a href="casa-nuevo-quilmes.html">Casa Nuevo Quilmes</a>
+                      </h3>
+                      <span>Hoses interiorismo</span>
+                    </div>
+                  </div>
+                </div> -->
+                <!-- 12 end -->
+                <!-- 13 -->
+                <!-- <div class="gallery-item finalizados">
+                  <div class="grid-item-holder">
+                    <div class="box-item">
+                      <a href="libertad-521.html">
+                        <img src="images/proyectos/1.jpg" alt="" />
+                        <div class="overlay"></div>
+                      </a>
+                      <a
+                        href="images/proyectos/1.jpg"
+                        class="image-popup popup-image"
+                        ><i class="fa fa-search"></i
+                      ></a>
+                    </div>
+                    <div class="grid-item">
+                      <h3><a href="libertad-521.html">Libertad 521</a></h3>
+                      <span>Hoses interiorismo</span>
+                    </div>
+                  </div>
+                </div> -->
+                <!-- 13 end -->
+              </div>
+              <!-- end gallery items -->
+              <!-- <div class="clearfix"></div>
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-4"></div>
+                  <div class="col-md-8">
+                    <div class="order-item margin-content fl-wrap">
+                      <div class="row">
+                        <div class="col-md-4"></div>
+                        <div class="col-md-5">
+                          <h3>Ready to order our project ?</h3>
+                        </div>
+                        <div class="col-md-3">
+                          <a
+                            href="#sec6"
+                            class="btn float-btn flat-btn custom-scroll-link"
+                            >Contactanos</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div> -->
+            </section>
+
+            <!--social-wrap -->
+            <div class="social-wrap fl-wrap">
+              <ul>
+                <li>
+                  <a
+                    href="https://facebook.com/radiumdesarrollos"
+                    target="_blank"
+                    ><i class="fab fa-facebook"></i
+                  ></a>
+                </li>
+                <li>
+                  <a
+                    href="https://instagram.com/radiumdesarrollos"
+                    target="_blank"
+                    ><i class="fab fa-instagram"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+            <!--social-wrap end-->
+          </div>
+          <!-- content  end -->
+          <!--=============== content-footer   ===============-->
+          <section
+            data-scrollax-parent="true"
+            id="sec10"
+            style="padding: 0"
+          ></section>
+          <div class="height-emulator"></div>
+          <footer class="content-footer">
+            <div class="footer-inner">
+              <div class="row">
+                <div class="col-md-3">
+                  <a class="footer-logo" href="index.html"
+                    ><img src="images/logo.png" alt=""
+                  /></a>
+                </div>
+                <div class="col-md-4">
+                  <!-- <div class="footer-header fl-wrap"> -->
+                  <!-- <span>01.</span> Contacts -->
+                  <!-- </div> -->
+                  <div class="footer-box fl-wrap">
+                    <ul>
+                      <li>RADIUM DESARROLLOS</li>
+                      <li>
+                        <span>Mail :</span>
+                        info@radium.com.ar
+                      </li>
+                      <!-- <li>
+                        <span>Dirección :</span>Parana 662 timbre 6 CABA
+                      </li> -->
+                      <li><span>Telefono :</span> +54 (911) 2290 1090</li>
+                    </ul>
+                  </div>
+                </div>
+                <!-- <div class="col-md-5">
+                  <div class="footer-header fl-wrap">
+                    <span>02.</span> Subscribe
+                  </div>
+                  <div class="footer-box fl-wrap">
+                    <div class="subcribe-form fl-wrap">
+                      <span>Newsletter</span>
+                      <form id="subscribe">
+                        <input
+                          class="enteremail"
+                          name="email"
+                          id="subscribe-email"
+                          placeholder="email"
+                          spellcheck="false"
+                          type="text"
+                        />
+                        <button
+                          type="submit"
+                          id="subscribe-button"
+                          class="subscribe-button"
+                        >
+                          Submit
+                        </button>
+                        <label
+                          for="subscribe-email"
+                          class="subscribe-message"
+                        ></label>
+                      </form>
+                    </div>
+                  </div>
+                </div> -->
+              </div>
+              <div class="row">
+                <div class="col-md-3"></div>
+                <div class="col-md-9">
+                  <div class="fl-wrap policy-box">
+                    <p>&#169; RADIUM. Todos los derechos reservados.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="to-top"><i class="fa fa-long-arrow-up"></i></div>
+            </div>
+          </footer>
+          <!-- content-footer end    -->
+        </div>
+        <!-- content-holder end -->
+      </div>
+      <!-- wrapper end -->
+      <!--search-form-holder -->
+      <div class="search-form-holder fixed-search">
+        <div class="search-form-bg"></div>
+        <div class="search-form-wrap">
+          <div class="container">
+            <form class="searchform" method="get">
+              <input
+                type="text"
+                autocomplete="off"
+                name="s"
+                placeholder="Type and Enter to Search"
+              />
+            </form>
+            <div class="close-fixed-search"></div>
+          </div>
+          <div class="dublicated-text"></div>
+        </div>
+      </div>
+      <!--search-form-holder  end-->
+      <!-- Share container  -->
+      <!-- SOCIALS SIDEBAR -->
+      <!-- <div class="share-wrapper isShare">
+        <div class="share-container"></div>
+      </div> -->
+      <!-- Share container  end-->
+      <!-- footer -->
+      <footer class="main-footer">
+        <div class="fixed-title"><span>Radium Desarrollos</span></div>
+        <div class="footer-social">
+          <ul>
+            <li>
+              <a href="https://facebook.com/radiumdesarrollos" target="_blank"
+                ><i class="fab fa-facebook"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://instagram.com/radiumdesarrollos" target="_blank"
+                ><i class="fab fa-instagram"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </footer>
+      <!-- footer end-->
+    </div>
+    <!-- Main end -->
+    <!--=============== scripts  ===============-->
+    <script
+      type="text/javascript"
+      src="http://maps.google.com/maps/api/js?key=AIzaSyDwJSRi0zFjDemECmFl9JtRj1FY7TiTRRo"
+    ></script>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/plugins.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
+    <script type="text/javascript" src="js/map.js"></script>
+  </body>
+</html>
